@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "pgtransformers:heavy_cable_300a",
+    "pgtransformers:heavy_cable_1000a"
+  ]
+}

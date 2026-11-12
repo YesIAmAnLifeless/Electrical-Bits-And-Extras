@@ -1,0 +1,64 @@
+{
+ "variants": {
+  "facing=north,kind=0": {
+   "model": "pgtransformers:block/large_voltage_transformer_ext"
+  },
+  "facing=east,kind=0": {
+   "model": "pgtransformers:block/large_voltage_transformer_ext",
+   "y": 90
+  },
+  "facing=south,kind=0": {
+   "model": "pgtransformers:block/large_voltage_transformer_ext",
+   "y": 180
+  },
+  "facing=west,kind=0": {
+   "model": "pgtransformers:block/large_voltage_transformer_ext",
+   "y": 270
+  },
+  "facing=north,kind=1": {
+   "model": "pgtransformers:block/huge_side"
+  },
+  "facing=east,kind=1": {
+   "model": "pgtransformers:block/huge_side",
+   "y": 90
+  },
+  "facing=south,kind=1": {
+   "model": "pgtransformers:block/huge_side",
+   "y": 180
+  },
+  "facing=west,kind=1": {
+   "model": "pgtransformers:block/huge_side",
+   "y": 270
+  },
+  "facing=north,kind=2": {
+   "model": "pgtransformers:block/huge_down"
+  },
+  "facing=east,kind=2": {
+   "model": "pgtransformers:block/huge_down",
+   "y": 90
+  },
+  "facing=south,kind=2": {
+   "model": "pgtransformers:block/huge_down",
+   "y": 180
+  },
+  "facing=west,kind=2": {
+   "model": "pgtransformers:block/huge_down",
+   "y": 270
+  },
+  "facing=north,kind=3": {
+   "model": "pgtransformers:block/huge_down_side"
+  },
+  "facing=east,kind=3": {
+   "model": "pgtransformers:block/huge_down_side",
+   "y": 90
+  },
+  "facing=south,kind=3": {
+   "model": "pgtransformers:block/huge_down_side",
+   "y": 180
+  },
+  "facing=west,kind=3": {
+   "model": "pgtransformers:block/huge_down_side",
+   "y": 270
+  }
+ }
+}

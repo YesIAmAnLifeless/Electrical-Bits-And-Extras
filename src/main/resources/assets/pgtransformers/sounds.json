@@ -1,0 +1,13 @@
+{
+  "industrial_siren": {
+    "sounds": [
+      {
+        "name": "pgtransformers:industrial_siren",
+        "stream": false,
+        "attenuation_distance": 48,
+        "volume": 1.0
+      }
+    ],
+    "subtitle": "subtitles.pgtransformers.industrial_siren"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:plates/copper"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "pgtransformers:custom_transformer_core"
+    },
+    {
+      "chance": 5.0,
+      "id": "minecraft:diamond"
+    },
+    {
+      "chance": 4.0,
+      "id": "minecraft:gold_ingot"
+    },
+    {
+      "id": "create:golden_sheet"
+    },
+    {
+      "id": "minecraft:redstone"
+    },
+    {
+      "id": "create:copper_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        },
+        {
+          "tag": "c:plates/copper"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        },
+        {
+          "tag": "c:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        },
+        {
+          "tag": "c:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_transformer_core"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_transformer_core"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "pgtransformers:incomplete_transformer_core"
+  }
+}

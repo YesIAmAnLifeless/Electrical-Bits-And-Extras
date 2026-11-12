@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "pgtransformers"
+version = "${version}"
+displayName = "Create: Electrical Bits And Extras"
+description = '''
+Extras for Create: Power Grid: adjustable Voltage and Current Transformers, an Ultimate Multimeter
+with no range limit, an unbreakable no-limit switch, and 300 A / 1000 A heavy cables that fit every copper-wire terminal.
+'''
+
+[[dependencies.pgtransformers]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.219,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pgtransformers]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.pgtransformers]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.9,6.1.0)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.pgtransformers]]
+modId = "powergrid"
+type = "required"
+versionRange = "[0.6.2,)"
+ordering = "AFTER"
+side = "BOTH"

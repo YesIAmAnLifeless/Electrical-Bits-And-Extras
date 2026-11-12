@@ -1,0 +1,45 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.78'
+}
+
+version = '2.0.0'
+group = 'com.pgtransformers'
+
+base { archivesName = 'pgtransformers-mc1.21.1' }
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.architectury.dev/' }   // Architectury API (Power Grid needs it at runtime)
+    maven { url = 'https://maven.createmod.net' }
+}
+
+neoForge {
+    version = '21.1.219'
+
+    runs {
+        client { client() }
+        server { server(); programArguments.add('--nogui') }
+    }
+
+    mods {
+        pgtransformers { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    // Compile against Create, Power Grid and the libs Create bundles (Registrate, Ponder/Catnip, Flywheel).
+    compileOnly fileTree(dir: 'libs', include: '*.jar')
+
+    // So that `gradlew runClient` launches with everything present.
+    runtimeOnly fileTree(dir: 'libs', include: '*.jar')
+    runtimeOnly 'dev.architectury:architectury-neoforge:13.0.8'
+}
+
+tasks.withType(ProcessResources).configureEach {
+    var props = [version: project.version]
+    inputs.properties props
+    filesMatching('META-INF/neoforge.mods.toml') { expand props }
+}

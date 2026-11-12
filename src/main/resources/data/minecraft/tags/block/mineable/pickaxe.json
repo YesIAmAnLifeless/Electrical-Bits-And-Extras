@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "pgtransformers:voltage_transformer",
+    "pgtransformers:large_voltage_transformer",
+    "pgtransformers:huge_voltage_transformer",
+    "pgtransformers:large_voltage_transformer_ext",
+    "pgtransformers:custom_transformer_core",
+    "pgtransformers:unbreakable_switch",
+    "pgtransformers:rtg",
+    "pgtransformers:industrial_siren"
+  ]
+}

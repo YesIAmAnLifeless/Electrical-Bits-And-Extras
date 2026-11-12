@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "pgtransformers:item/heavy_cable_300a" }
+}

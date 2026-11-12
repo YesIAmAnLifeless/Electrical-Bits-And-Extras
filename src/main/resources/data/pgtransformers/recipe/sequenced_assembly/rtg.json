@@ -1,0 +1,113 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_casing"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "pgtransformers:rtg"
+    },
+    {
+      "chance": 5.0,
+      "id": "create:copper_casing"
+    },
+    {
+      "chance": 2.0,
+      "id": "create:polished_rose_quartz"
+    },
+    {
+      "chance": 2.0,
+      "id": "create:golden_sheet"
+    },
+    {
+      "chance": 2.0,
+      "id": "create:iron_sheet"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_rtg"
+        },
+        {
+          "item": "create:polished_rose_quartz"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_rtg"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_rtg"
+        },
+        {
+          "tag": "c:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_rtg"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_rtg"
+        },
+        {
+          "tag": "c:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_rtg"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_rtg"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_rtg"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "pgtransformers:incomplete_rtg"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 250,
+          "fluid": "powergrid:acid"
+        }
+      ],
+      "results": [
+        {
+          "id": "pgtransformers:incomplete_rtg"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "pgtransformers:incomplete_rtg"
+  }
+}

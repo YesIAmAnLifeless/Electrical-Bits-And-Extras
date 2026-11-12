@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "pgtransformers:block/rtg_top",
+    "side": "pgtransformers:block/rtg_side"
+  }
+}

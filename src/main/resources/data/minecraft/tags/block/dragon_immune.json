@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    "pgtransformers:unbreakable_switch"
+  ]
+}

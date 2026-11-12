@@ -1,0 +1,14 @@
+{
+  "colorable": false,
+  "cord": false,
+  "horizontalCoefficient": 1.005,
+  "insulated": true,
+  "itemsPerMeter": 0.5,
+  "maximumCurrent": 300.0,
+  "maximumLength": 48.0,
+  "resistancePerItem": 0.0004,
+  "texture": "pgtransformers:textures/special/heavy_cable_300a.png",
+  "thermalMass": 3.0,
+  "verticalCoefficient": 1.05,
+  "wireThickness": 0.15
+}

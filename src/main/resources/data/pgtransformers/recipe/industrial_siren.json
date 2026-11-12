@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "key": {
+  "I": {
+   "tag": "c:plates/iron"
+  },
+  "A": {
+   "item": "powergrid:alarm_bell"
+  },
+  "C": {
+   "tag": "c:copper_coils"
+  }
+ },
+ "pattern": [
+  " I ",
+  "IAI",
+  "ICI"
+ ],
+ "result": {
+  "count": 1,
+  "id": "pgtransformers:industrial_siren"
+ }
+}
